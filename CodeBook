@@ -1,1 +1,19 @@
 CodeBook
+
+Running run_analysis.R will accomplish the following steps
+    Getting data
+        Download data ontop computer and upload into R
+    Make data readable
+        Use scripts to have R be able to read data tables
+    Merge data
+        Merge the test and train data by combining the subject data, then the x (feature) data, and last the y (acrivity) data
+    Name the data
+        Insert more user-friendly names into the data, such as subject, activity and those found in the "features.txt" document
+    Extract mean and standard diviation
+        Isolate measurements of the mean and standard diviation
+    Combine data
+        Combine the three remaining datasets (x,y, and subject)
+    Name the data
+        With all data combine, finish naming the data with descriptive words
+    Create tidy dataset
+        Last, create a second combined dataset and save it as "tidydata.txt"
